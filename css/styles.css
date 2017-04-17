@@ -45,8 +45,8 @@ html {
 
 /*Navbar Styling*/
 .navbar-default {
-    background-color: #ff6138;
-    border-color: #ff6138;
+    background-color: rgba(15, 53, 44,0.9);
+    border-color: rgba(15, 53, 44,0.9);
     font-family: 'Varela Round', sans-serif;
 
 }
@@ -55,7 +55,7 @@ html {
     color:#f8f8f8 ;
 }
 .navbar-default .navbar-brand:hover {
-    color:#333 ;
+    color:#ff6700 ;
 }
 
 .navbar-default .navbar-brand:focus {
@@ -72,19 +72,19 @@ html {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #333;
+    color: #ff6700;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #555;
-    background-color: #ff6138;
+    color: #ff6700;
+    background-color: #ff6700;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #555;
-    background-color: #ff6138;
+    color: #ff6700;
+    background-color: #ff6700;
 }
 
 /*Logo Section*/
@@ -92,7 +92,7 @@ html {
     /*padding-top: 110px;*/
     /*padding-bottom: 60px;*/
     text-align: center;
-    background: #ff6138;
+    background: #ff6700;
 }
 
 .logo-section img {
@@ -104,31 +104,31 @@ html {
     font-family: 'Varela Round', sans-serif;
     vertical-align: middle;
     color:#ccc;
-    background-image: url(../img/sotm_green.png) no-repeat;
+    background-image: url('../img/background_white.png');
 }
 
 /*Accent Intro section*/
 .accent-intro {
     padding:  60px 20px;
-    background: #fffbfa;
+    background: #f1ffff;
     font-family: 'Varela Round', sans-serif;
-    border-bottom: 1px solid #ffdbd2;
+    border-bottom: 1px solid #a7eadf;
 }
 
 
 #accent-intro .heart {
-    color:  #ff6138
+    color:  #ff6700
 }
 
 #accent-intro .accent-highlight {
-    color:  #ff6138;
+    color:  #ff6700;
     font-weight: bold;    
 }
 #accent-intro .when-where {
   font-size: 16px;
   margin-bottom: 20px;
   font-family: 'Varela Round', sans-serif;
-  color:#ff6138;
+  color:#ff6700;
 
 }
 
@@ -148,12 +148,17 @@ html {
 
 /*Sponsors section*/
 .sponsors {
-    padding:  20px 20px 70px;
-    background: #fff;
+    padding:  20px 20px 100px;
+    /*background-image: url('../img/background_white.png');*/
+    background-color: #0f352c;
+
 }
+
+
 
 .sponsors h2 {
     font-family: 'Varela Round', sans-serif;
+    color:#fff;
 }
 
 .sponsor-image-col {
@@ -165,7 +170,7 @@ html {
 }
 
 a {
-    color:#ff6138;
+    color:#ff6700;
 }
 
 a:hover {
@@ -205,8 +210,9 @@ a:hover {
 
 /*Footer Section*/
 .footer {
-    background-color: #fffbfa;
-    border-top: 1px solid #ffdbd2;
+    background-image: url('../img/background_white.png');
+    background-color: #0f352c;
+    border-top: 1px solid #29564c;
     padding-top:50px;
     padding-bottom:50px;
 }
@@ -220,7 +226,7 @@ a:hover {
 }
 
 .footer a {
-    color:#888;
+    color:#ccc;
     font-weight: 500;
 }
 
@@ -235,7 +241,7 @@ a:hover {
 
 a[disabled=disabled] {
     pointer-events: none;
-    color:#ccc;
+    color:#888;
 }
 
 
@@ -245,6 +251,6 @@ a[disabled=disabled] {
 
 
 
-
+#mapid { height: 400px; }
 
 
