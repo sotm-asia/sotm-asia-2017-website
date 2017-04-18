@@ -96,7 +96,9 @@ html {
 }
 
 .logo-section img {
+    padding: 5vh 0 5vh;
     max-width:95vw;
+    /*max-height:70vh;*/
 }
 
 .logo {
