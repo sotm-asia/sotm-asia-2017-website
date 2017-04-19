@@ -13,6 +13,7 @@ body {
     height: 100%;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    background-color: #f1ffff;
 }
 
 html {
@@ -192,7 +193,7 @@ a:hover {
 .single-section-content {
     padding-top: 70px;
     padding-bottom: 100px;
-    background: #fff;
+    background: #f1ffff;
 }
 
 .single-section-content h3 {
@@ -221,6 +222,7 @@ a:hover {
 
 .footer ul  {
     list-style: none;
+    margin-left: -40px;
 }
 
 .footer li {
