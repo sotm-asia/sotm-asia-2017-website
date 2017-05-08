@@ -149,6 +149,12 @@ html {
   font-family: 'Varela Round', sans-serif;
 }
 
+#why-kathmandu {
+    font-family: 'Varela Round', sans-serif;
+
+
+}
+
 /*Sponsors section*/
 .sponsors {
     padding:  20px 20px 100px;
@@ -253,7 +259,10 @@ a[disabled=disabled] {
      border: 2px solid red;
 }
 
-
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
 
 #mapid { height: 400px; }
 
