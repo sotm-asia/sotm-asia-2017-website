@@ -11,6 +11,6 @@ var OpenStreetMap_Mapnik = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x
 	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 })
 
-var marker = L.marker([27.68065,85.30619]).addTo(mymap);
+var marker = L.marker([27.77448,85.35951]).addTo(mymap);
 
 CartoDB_Positron.addTo(mymap);
