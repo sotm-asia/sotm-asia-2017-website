@@ -1,4 +1,4 @@
-var mymap = L.map('mapid').setView([27.68065,85.30619], 15);
+var mymap = L.map('mapid').setView([27.77448,85.35951], 15);
 
 var CartoDB_Positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
