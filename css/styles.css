@@ -265,3 +265,7 @@ a[disabled=disabled] {
 #mapid { height: 400px; }
 
 
+.bio-image{
+	width: 150px;
+	height: 200px;
+}
