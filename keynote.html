@@ -17,6 +17,8 @@
 
     <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -67,10 +69,10 @@
                     <li>
                         <a class="" href="scholarships.html">Scholarships</a>
                     </li>
-                    <li>
+					<li>
                         <a class="" href="trav.html">Travel & Accommodation</a>
                     </li>
-                                       <li>
+                    <li>
                         <a class="" target="_blank" href="https://docs.google.com/forms/d/1roJ68lLXe9cMhIWoQ9PxKmyDRiJcTbOT08a8y0q3g6A/edit"><strong>Register</strong></a>
                     </li>
                 </ul>
@@ -87,15 +89,33 @@
             <div class="container">
                 <div class="row ">
                     <div class="col-lg-3">
-                        <h3>Scholarships</h3>
+                        <h3>Keynote Speakers</h3>
                     </div>
                     <div class="col-lg-9 description ">
-                        <h4>Applications closed.</h4>
-                        <p>We are currently reviewing scholarship applications. We will notify you after processing all applications.</p>
-
+                        <p><b>Kate Chapman</b></p>
+						<div class = "text-center">
+						<img src = "img/kate.jpg" class="bio-image img-rounded">
+						</div>
+						<p>Kate Chapman is the Chairperson of the OpenStreetMap Foundation. She is recognized as a leader in the domains of open-source geospatial technology and community mapping, and an advocate for open imagery as a public good. Over the past 15 years she’s worked on geospatial problems of all kinds, including tracking malaria outbreaks, mapping private residences for emergency response, and even analyzing imaginary items used in geospatial games. Currently, Kate works as the Chief Technology Officer of the Cadasta Foundation an organization committed to harnessing innovative technology to simplify, modernize, and expedite the documentation of land and resource rights around the world.</p>
+						<br>
+						<p><b>Dr. Lee Schwartz</b><p>
+						<div class = "text-center">
+						<img src = "img/lee.jpg" class="bio-image img-rounded">
+						</div>
+						<p>Lee Schwartz is the Geographer of the Department of State and the Director of its Office of the Geographer and Global Issues.  Dr. Schwartz directs research and analysis on global issues primarily related to complex humanitarian emergencies and has coordinated related fieldwork and applied geography projects overseas – with an emphasis on Geographic Information Systems (GIS) and Remote Sensing information coordination, as well as Participatory Mapping.  He is a recipient of the State Department’s Christopher Award for Outstanding Achievement in Global Affairs, the AAG’s Anderson Medal of Honor in Applied Geography and the AGS’s Cullum Medal for the advancement of geographical science.</p>
+						<br>
+						
+						<p><b>Prof. Taichi Furuhasi</b></p>
+						<div class = "text-center">
+						<img src = "img/taichi.jpg" class="bio-image img-rounded">
+						</div>
+						<p>Taichi Furuhashi is passionate about mapping, connecting local communities with maps and sharing knowledge to empower people. As you know, Huge Earthquake and Tsunami destroyed a lot of cities and local communities in East Japan area in 2011. They are trying to make more resilient society with Mapping, Panorama/VR and Drone technology. Taichi is a professor of Aoyamagakuin University and President of CrisisMappers Japan.
+						</p>
+						<br>
+                    </div>
                 </div>
             </div>
-        </section>
+			</section>
         <div class="push"></div>
     </div>
     <footer class="footer navbar-static-bottom">
@@ -148,6 +168,9 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
 
+
+     <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+     <script type="text/javascript" src = "js/map.js"></script>
 </body>
 
 </html>

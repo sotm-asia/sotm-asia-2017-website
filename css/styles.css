@@ -73,6 +73,7 @@ html {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
+    cursor: pointer;
     color: #ff6700;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -84,8 +85,9 @@ html {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #ff6700;
-    background-color: #ff6700;
+
+    /*color: #ff6700;*/
+    /*background-color: #ff6700;*/
 }
 
 /*Logo Section*/
