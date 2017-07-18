@@ -17,6 +17,8 @@
 
     <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -60,6 +62,7 @@
                                     <li><a href="schedule.html">Schedule</a></li>
                                 </ul>         
                     </li>
+
                     <li>
                         <a class="" href="code-of-conduct.html">Code of Conduct</a>
                     </li>
@@ -70,7 +73,7 @@
                         <a class="" href="trav.html">Travel & Accommodation</a>
                     </li>
                     <li>
-                        <a class=""  target="_blank" href="https://docs.google.com/forms/d/1roJ68lLXe9cMhIWoQ9PxKmyDRiJcTbOT08a8y0q3g6A/edit"><strong>Register</strong></a>
+                        <a class="" target="_blank" href="https://docs.google.com/forms/d/1roJ68lLXe9cMhIWoQ9PxKmyDRiJcTbOT08a8y0q3g6A/edit"><strong>Register</strong></a>
                     </li>
                 </ul>
             </div>
@@ -79,38 +82,33 @@
         <!-- /.container -->
     </nav>
 
+    <!-- A wrapper div is added to keep the footer fixed when the content is small, and send it to the bottom when the content > viewport height -->
     <div class="wrapper">
-
         <!-- Intro Section -->
-        <section id="code-of-conduct" class="single-section-content">
+        <section id="program" class="single-section-content">
             <div class="container">
                 <div class="row ">
                     <div class="col-lg-3">
-                        <h3>Code of Conduct</h3>
+                        <h3>Program</h3>
                     </div>
                     <div class="col-lg-9 description ">
-                        <p>The State of the Map Asia 2017 team is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, or religion. We do not tolerate harassment of conference participants in any form. </p>
-						
-						<p>Sexual language and imagery is not appropriate for any conference venue, including talks.</p>
-
-                        <p>Harassment includes verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion; sexual images in public spaces; deliberate intimidation; stalking; following; harassing photography or recording; sustained disruption of talks or other events; inappropriate physical contact; and unwelcome sexual attention. Participants asked to stop any harassing behavior are expected to comply immediately.</p>
-
-                        <p>Exhibitors or similar actors are also subject to the anti-harassment policy. In particular, exhibitors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing, or otherwise create a sexualized environment.</p>
-
-                        <p>If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund. If you are being harassed, notice that someone else is being harassed, or have any other concerns that you are unable to satisfactorily resolve amongst the person(s) involved, please contact a member of conference team immediately. Escalation to, and incident reporting by a small subset of conference team leaders will ensure that repeat offenders do not go unnoticed.</p>
-
-                        <p>The conference team will be happy to help participants contact venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
-
-                        <p>We expect participants to follow these rules at all conference venues and conference-related social events.</p>
+                        <h4>Program Schedule</h4>
+                        
+                        <p>The deadline to propose sessions has been extended to August 1, 2017. Please use <a href="https://docs.google.com/forms/d/1oBuNmErM4aDtVINbJP36dPjKl3D6htXF0GQ9qa0bIg4/" target="_blank">this link</a> to apply. 
+						The sessions can be one of the following: </p>
+                        <ul>
+                            <li>Lightning talk (10 minutes each)</li>
+                            <li>Presentations (15 minutes each)</li>
+                            <li>Breakout session, Workshop format (1 or 2 hours each)</li>
+							<li>Country presentation on State of the Map (20 minutes each. A guideline will be provided.)</li>
+                        </ul>
                         <br>
                         <br>
-                        <h4>Contact Information</h4>
-                        <p>You can email the SotM Asia 2017 team with any concerns at <a href="mailto:sotmasia2017@gmail.com">sotmasia2017@gmail.com</a>
-                        </p>
+                        
                     </div>
                 </div>
             </div>
-        </section>
+			</section>
         <div class="push"></div>
     </div>
     <footer class="footer navbar-static-bottom">
@@ -120,7 +118,7 @@
                 </div>
                 <div class="col-md-3">
                     <ul>
-                        <li><a href="program.html">Program</a>
+                        <li><a href="">Program</a>
                         </li>
                     </ul>
                     <ul>
@@ -162,8 +160,10 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 
+
+     <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+     <script type="text/javascript" src = "js/map.js"></script>
 </body>
 
 </html>

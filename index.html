@@ -18,6 +18,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" >
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,9 +54,15 @@
                         <a class="page-scroll" href="index.html"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="program.html">Program</a>
+                        <a class=" dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Program
+                            <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                <!-- Add header here -->
+                                    <li><a href="keynote.html">Keynote</a></li>
+                                    <li><a href="schedule.html">Schedule</a></li>
+                                </ul>         
                     </li>
-					<li>
+                    <li>
                         <a class="" href="code-of-conduct.html">Code of Conduct</a>
                     </li>
                     <li>
@@ -100,23 +107,31 @@
                 <br>
                 <br>
                 
-				<img class = "img-responsive" src = "img/12.jpg" ></img>
-				<br>
-				<br>
-				
+                <img class = "img-responsive" src = "img/12.jpg" ></img>
+                <br>
+                <br>
+                
                 <div class="row">
                     <div class="col-lg-6">
                         <p class="when-where"><strong>When?</strong> September 23 - 24, 2017</p>
                     </div>
                     <div class="col-lg-6">
-                        <p class="when-where"><strong>Where?</strong>Park Village Resort<br/>Budhanilkantha, Kathmandu</p>
+                        <p class="when-where"><strong>Hosted By</strong><a href="http://www.kathmandulivinglabs.org" target="_blank">Kathmandu Living Labs</a> and <a href = "https://www.facebook.com/groups/mapkathmandu/"> OSM Community of Nepal</a></p>
                     </div>
                     <div class="col-lg-6">
-                        <p class="when-where"><strong>Hosted By</strong><a href="http://www.kathmandulivinglabs.org" target="_blank">Kathmandu Living Labs</a> and <a href = "https://www.facebook.com/groups/mapkathmandu/"> OSM Community of Nepal  </a></p>
+                        <p class="when-where"><strong>Where?</strong><a href="https://ktmgh.com/park-village-resort/" target="_blank">Park Village Resort, Budhanilkantha, Kathmandu</a></p>
+                        
                     </div>
                 </div>
-				<br>
-
+                <div class="row col-md-12">
+                    
+                        <div id = "mapid"></div>
+                        <br>
+                        <br>
+                </div>
+				
+                
+                            
             </div>
         </section>
 
@@ -161,7 +176,7 @@
                         </li>
                     </ul>
                     <ul>
-                        <li><a disabled="disabled" href="">Venue</a>
+                        <li><a href="index.html#mapid">Venue</a>
                         </li>
                     </ul>
 
@@ -199,7 +214,8 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-     <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script type="text/javascript" src = "js/map.js"></script>
 </body>
 
 </html>
