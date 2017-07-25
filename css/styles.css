@@ -271,3 +271,10 @@ a[disabled=disabled] {
 	width: 150px;
 	height: 200px;
 }
+
+.img-sponsor{
+	display: block;
+	margin: auto;
+    	width: 24%;
+	height: auto;
+}
