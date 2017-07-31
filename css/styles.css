@@ -8,18 +8,6 @@
     margin: 0;
 }
 
-.less-margin-top {
-    margin-top: -20px;
-}
-
-.less-margin-left{
-    margin-left: -15px;
-}
-
-.margin-left{
-    margin-left: 15px;
-}
-
 body {
     width: 100%;
     height: 100%;
@@ -280,7 +268,20 @@ a[disabled=disabled] {
 
 
 .bio-image{
-    margin-left:-15px;
 	width: 150px;
 	height: 200px;
+}
+
+.img-sponsor{
+	display: block;
+	margin: auto;
+    	width: 50%;
+	height: auto;
+}
+
+.img-sponsor-osmf{
+	display: block;
+	margin: auto;
+    	width: 24%;
+	height: auto;
 }
