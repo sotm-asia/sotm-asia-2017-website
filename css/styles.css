@@ -285,3 +285,16 @@ a[disabled=disabled] {
     	width: 24%;
 	height: auto;
 }
+
+.schedule-day{
+	font-size: 20px;
+}
+
+.schedule-time{
+	font-size: 18px;
+}
+
+.schedule-event{
+	font-size: 17px;
+	white-space: pre;
+}
